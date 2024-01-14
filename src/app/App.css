@@ -1,0 +1,39 @@
+.b {
+  border: 2px solid red;
+}
+
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 2% 15%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.main {
+  padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .App {
+    padding: 2% 5%;
+  }
+  .title {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .App {
+    padding: 2%;
+  }
+  .title {
+    font-size: 1.1rem;
+  }
+}

@@ -1,0 +1,12 @@
+/* MyEditor.css */
+.editor-playground {
+    border: 2px solid #ccc;
+    background-color: #35353598;
+    padding: 1rem;
+    overflow-y: auto;
+    border-radius: 8px;
+}
+
+.DraftEditor-root {
+    height: 60vh!important;
+}
