@@ -1,8 +1,20 @@
-# React + Vite
+# Editoraft
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![](./public/thumbnail.png)
 
-Currently, two official plugins are available:
+##  Rich Text Editor using Draft.js within ReactJS with the following specifications
+- The editor written in Draft.js
+    - `#` as the first string in a line & pressing space make anything you type afterwards on the same line be in a “Heading” format. On pressing space the aforementioned `#` disappear.
+        - See “This is Heading” line in the layout image above.
+    - `*` as the first string in a line and pressing space correspond to “bold” format
+    - `**` and space = red line
+    - `***` and space = underline
+- Pressing `Save` button persist everything typed in the editor into `localstorage`. On refreshing the page,  the saved info refilled into the editor.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 👨🏻‍💻 Technology used
+- HTML
+- CSS
+- Vite
+- JavaScript
+- React.js
+- Draft.js
